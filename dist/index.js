@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.StethoscopeIcon = exports.HeartIcon = void 0;
+exports.Stethoscope = exports.Heart = void 0;
 var _react = _interopRequireDefault(require("react"));
 var _client = _interopRequireDefault(require("react-dom/client"));
 require("./index.css");
@@ -12,10 +12,10 @@ var _reportWebVitals = _interopRequireDefault(require("./reportWebVitals"));
 var _heart = require("./icons/heart");
 var _stethoscope = require("./icons/stethoscope");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
-var HeartIcon = exports.HeartIcon = function HeartIcon(props) {
+var Heart = exports.Heart = function Heart(props) {
   return /*#__PURE__*/_react["default"].createElement(_heart.ReactComponent, props);
 };
-var StethoscopeIcon = exports.StethoscopeIcon = function StethoscopeIcon(props) {
+var Stethoscope = exports.Stethoscope = function Stethoscope(props) {
   return /*#__PURE__*/_react["default"].createElement(_stethoscope.ReactComponent, props);
 };
 var root = _client["default"].createRoot(document.getElementById('root'));
